@@ -1,3 +1,7 @@
+## 1.0.1
+
+- Stop video and audio tracks on disconnect.
+
 ## 1.0.0
 
 - Released web to stable.

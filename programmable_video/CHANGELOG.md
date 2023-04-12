@@ -1,3 +1,7 @@
+## 1.0.2
+
+- **Web**: Stop video and audio tracks on disconnect. This helps turn off the camera light when not in use.
+
 ## 1.0.1
 
 - Updated `permission_handler` dependency from 9.2.0 to 10.2.0

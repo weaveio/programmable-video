@@ -25,8 +25,8 @@ dartdoc:
       - merge_requests
       - master
     changes:
-      - ./**/*.dart
-      - ./**/README.md
+      - "**/*.dart"
+      - "**/README.md"
       - .gitlab-ci.yml
 
 firebase_functions_programmable_video:
@@ -57,8 +57,8 @@ flutter_analyze:
       - merge_requests
       - master
     changes:
-      - ./**/*.dart
-      - ./**/test/**/*.dart
+      - "**/*.dart"
+      - "**/test/**/*.dart"
       - .gitlab-ci.yml
 
 kotlin_analyze_programmable_video:
