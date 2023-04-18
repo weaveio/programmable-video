@@ -51,7 +51,7 @@ flutter_analyze:
     - cd "${PROJECT}"
     - flutter pub get
     - flutter analyze --pub
-    - flutter format -l 240 -n . --set-exit-if-changed
+    - dart format -l 240 . --set-exit-if-changed
   only:
     refs:
       - merge_requests

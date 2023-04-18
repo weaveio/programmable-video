@@ -1,3 +1,8 @@
+## 1.1.0
+
+- Added `VideoRenderMode mode` as an optional parameter to the `widget` method of the `LocalVideoTrack`, and the `RemoteVideoTrack` classes. For backwards compatibility, it defaults to `VideoRenderMode.BALANCED`. 
+- **Web** Fixed some small annotation errors in the Web implementation.
+
 ## 1.0.2
 
 - **Web**: Stop video and audio tracks on disconnect. This helps turn off the camera light when not in use.
