@@ -14,10 +14,10 @@ dependencies:
     sdk: flutter
   permission_handler: ^10.2.0
   enum_to_string: ^2.0.1
-  twilio_programmable_video_platform_interface:
-    path: ../programmable_video_platform_interface
-  twilio_programmable_video_web:
-    path: ../programmable_video_web
+  twilio_programmable_video_platform_interface: any
+  #  path: ../programmable_video_platform_interface
+  twilio_programmable_video_web: any
+  #  path: ../programmable_video_web
   collection: ^1.15.0
 
 dev_dependencies:
@@ -26,6 +26,10 @@ dev_dependencies:
   mockito: ^5.0.6
   build_runner: ^2.0.1
   flutter_lints: ^1.0.4
+  twilio_programmable_video_platform_interface:
+    path: ../programmable_video_platform_interface
+  twilio_programmable_video_web:
+    path: ../programmable_video_web
 
 flutter:
   plugin:
