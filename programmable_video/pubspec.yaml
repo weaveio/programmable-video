@@ -12,12 +12,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  permission_handler: ^10.2.0
+  permission_handler: ^11.3.1
   enum_to_string: ^2.0.1
-  twilio_programmable_video_platform_interface: any
-  #  path: ../programmable_video_platform_interface
-  twilio_programmable_video_web: any
-  #  path: ../programmable_video_web
+  twilio_programmable_video_platform_interface:
+    path: ../programmable_video_platform_interface
+  twilio_programmable_video_web:
+    path: ../programmable_video_web
   collection: ^1.15.0
 
 dev_dependencies:
